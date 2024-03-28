@@ -244,19 +244,19 @@ span{
 @keyframes words {
       0%,
       20%{
-            content: "Frontend Designer";
+            content: "US Navy Veteran";
       }
       21%,
       40%{
-            content: "Web Designer";
+            content: "Poject Director";
       }
       41%,
       60%{
-            content: "UI / UX Designer";
+            content: "Project Manager";
       }
       61%,
       80%{
-            content: "App Developer";
+            content: "Data Analyst";
       }
       81%,
       100%{
@@ -334,7 +334,6 @@ span{
 
 .timeline-item:nth-child(odd){
       padding-right: calc(50%  + 30px);
-      text-align: right;
 }
 
 .timeline-item:nth-child(even){
@@ -360,6 +359,14 @@ span{
       margin: 6px 0 15px;
 }
 
+.timeline-data-right{
+      font-size: 20px;
+      font-weight: 800;
+      color: white;
+      margin: 6px 0 15px;
+      text-align: right;
+}
+
 .timeline-content{
       background-color: var(--bg-color);
       border: 3px solid var(--main-color2);
@@ -378,11 +385,11 @@ span{
 .timeline-content h3{
       font-size: 20px;
       color: white;
-      margin: 0 0 10px;
+      margin: 0 0 20px;
       font-weight: 500;
 }
 
-.timeline-content p{
+.timeline-content ul{
       color: white;
       font-size: 16px;
       font-weight: 300;
