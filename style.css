@@ -461,7 +461,7 @@ span{
       line-height: 2;
 }
 
-.two-columns ul  {
+.two-columns ul, p {
       column-count: 2;
       font-size: 1.6rem;
       font-weight: 600;
@@ -530,9 +530,10 @@ span{
       font-size: 2.8rem;
 }
 
-.skill-item p{
-      font-size: 1.3rem;
-}
+.skill-item ul {
+      font-size: 2rem;
+      list-style-type: none;
+  }
 
 #star{
       color: gold;
