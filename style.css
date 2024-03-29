@@ -461,7 +461,7 @@ span{
       line-height: 2;
 }
 
-.two-columns ul, p {
+.two-columns ul{
       column-count: 2;
       font-size: 1.6rem;
       font-weight: 600;
@@ -471,6 +471,15 @@ span{
       column-gap: 5px;
 }
 
+.two-columns p{
+      column-count: 2;
+      font-size: 1.6rem;
+      font-weight: 600;
+      max-height: 200px;
+      line-height: 1.7;
+      margin: auto;
+      column-gap: 5px;
+}
 .skills{
       background: var(--second-bg-color);
 }
