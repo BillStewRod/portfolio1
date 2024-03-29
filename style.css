@@ -5,14 +5,14 @@
       text-decoration: none;
       outline: none;
       scroll-behavior: smooth;
-      font-family: 'Poppins',sans-serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 :root {
       --bg-color:#080808;
       --second-bg-color:#131313;
       --text-color:white;
-      --main-color1:#f535aa;
+      --main-color1:#ff4800;
       --main-color2:#1786d1;
 }
 
@@ -248,7 +248,7 @@ span{
       }
       21%,
       40%{
-            content: "Poject Director";
+            content: "Project Director";
       }
       41%,
       60%{
@@ -296,12 +296,12 @@ span{
       margin: 5rem 0;
 }
 
-.education {
+.experience {
       padding: 100px 15px;
       background: var(--second-bg-color);
 }
 
-.education h2{
+.experience h2{
       margin-bottom: 5rem;
 }
 
@@ -405,77 +405,77 @@ span{
       width: 50px;
 }
 
-.services{
+.educerts{
       background: var(--bg-color);
       color: black;
 }
 
-.services h2{
+.educerts h2{
       margin-bottom: 5rem;
       color: white;
 }
 
-.services-container{
+.educerts-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
       align-items: left;
       gap: 2.5rem;
 }
 
-.service-box{
+.educert-box{
       background-color: var(--main-color2);
       height: 300px;
       border-radius: 3rem;
       border: 5px solid transparent;
       cursor: pointer;
       transition: 0.4s ease-in-out;
+      padding: 20px;
 }
 
-.service-box:hover{
+.educert-box:hover{
       background: white;
       color: black;
       border: 5px solid var(--main-color1);
       transform: scale(1.03);
 }
 
-.service-box .services-info{
+.educert-box .educerts-info{
       display: flex;
       flex-direction: column;
       text-align: left;
       max-height: 600px;
       justify-content: left;
       align-items: baseline;
-      padding: 2rem 2rem;
+      padding: 20 20px;
 }
 
-.services-info h4{
+.educerts-info h4{
       font-size: 3rem;
       font-weight: 800;
       line-height: 2;
 }
 
-.services-info p{
-      font-size: 1.6rem;
-      font-weight: 600;
-      max-height: 100px;
-      line-height: 1.7;
-      margin: auto;
+.educerts-info h3{
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 2;
 }
 
-.services-info ul {
+.two-columns ul  {
       column-count: 2;
       font-size: 1.6rem;
       font-weight: 600;
-      max-height: 100px;
+      max-height: 200px;
       line-height: 1.7;
       margin: auto;
+      column-gap: 5px;
 }
 
-.reviews{
+.skills{
       background: var(--second-bg-color);
 }
 
-.review-box{
+.skill-box{
       background-size: cover;
       display: flex;
       align-items: center;
@@ -483,11 +483,11 @@ span{
       flex-direction: column;
 }
 
-.reviews .heading{
+.skills .heading{
       margin-bottom: 5rem;
 }
 
-.review-box img{
+.skill-box img{
       width: 15rem;
       border-radius: 50%;
       border: 3px solid var(--main-color1);
@@ -501,7 +501,7 @@ span{
       gap: 3rem;
 }
 
-.review-item{
+.skill-item{
       min-height: 550px;
       max-width: 450px;
       background: rgba(0, 0, 0, 0.7);
@@ -520,17 +520,17 @@ span{
       transition: 0.4s ease-in-out;
 }
 
-.review-item:hover{
+.skill-item:hover{
       border: 3px solid var(--main-color1);
       transform: translateY(-10px) scale(1.03);
       box-shadow: 0 0 50px var(--main-color2);
 }
 
-.review-item h2{
+.skill-item h2{
       font-size: 2.8rem;
 }
 
-.review-item p{
+.skill-item p{
       font-size: 1.3rem;
 }
 
@@ -649,7 +649,7 @@ span{
       html{
             font-size: 55%;
       }
-      .services-container{
+      .educert-container{
             padding: 7rem;
             grid-template-columns: repeat(2,1fr);
             margin: 0 5rem;
@@ -677,10 +677,10 @@ span{
       .timeline-dot{
             left: 0;
       }
-      .services{
+      .educerts{
             padding-bottom: 7rem;
       }
-      .reviews .wrapper{
+      .skills .wrapper{
             grid-template-columns: repeat(1,1fr);
       }
       .contact form{
@@ -742,10 +742,10 @@ span{
             width: 56vw;
       }
 
-      .services h2{
+      .educerts h2{
             margin-bottom: 3rem;
       }
-      .services-container{
+      .educerts-container{
             grid-template-columns: repeat(1,1fr);
       }
 }
