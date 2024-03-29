@@ -418,7 +418,7 @@ span{
 .services-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      align-items: center;
+      align-items: left;
       gap: 2.5rem;
 }
 
@@ -442,10 +442,10 @@ span{
       display: flex;
       flex-direction: column;
       text-align: left;
-      max-height: 200px;
+      max-height: 600px;
       justify-content: left;
       align-items: baseline;
-      padding: 5rem 5rem;
+      padding: 2rem 2rem;
 }
 
 .services-info h4{
@@ -455,6 +455,15 @@ span{
 }
 
 .services-info p{
+      font-size: 1.6rem;
+      font-weight: 600;
+      max-height: 100px;
+      line-height: 1.7;
+      margin: auto;
+}
+
+.services-info ul {
+      column-count: 2;
       font-size: 1.6rem;
       font-weight: 600;
       max-height: 100px;
