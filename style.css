@@ -248,11 +248,11 @@ span{
       }
       21%,
       40%{
-            content: "Project Director";
+            content: "Program Director";
       }
       41%,
       60%{
-            content: "Project Manager";
+            content: "Program Manager";
       }
       61%,
       80%{
@@ -260,7 +260,7 @@ span{
       }
       81%,
       100%{
-            content: "Software Engineer";
+            content: "Web Designer";
       }
 }
 @keyframes typing{
