@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Specify npm for JavaScript projects
+    directory: "/" # Root directory where package.json and package-lock.json are located
+    schedule:
+      interval: "weekly" # Dependabot will check for updates weekly
+    target-branch: "main" # The branch to create pull requests against
+    versioning-strategy: "auto" # Dependabot will update to the latest version that meets your existing version requirements
