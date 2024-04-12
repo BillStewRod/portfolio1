@@ -333,7 +333,7 @@ span{
       background-color: var(--main-color2);
       box-shadow: 0 0 25px var(--main-color1),
                   0 0 50px var(--main-color2);
-      position: absolute;
+      position: fixed;
       left: calc(50% - 8px);
       border-radius: 50%;
       top: 10px;
